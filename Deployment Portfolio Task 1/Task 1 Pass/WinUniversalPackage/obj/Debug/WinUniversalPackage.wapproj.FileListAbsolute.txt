@@ -1,0 +1,50 @@
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\bin\AnyCPU\Debug\Example\Example.exe
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\bin\AnyCPU\Debug\Example\Example.exe.config
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\bin\AnyCPU\Debug\Example\Example.pdb
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\bin\AnyCPU\Debug\resources.pri
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\bin\AnyCPU\Debug\AppxManifest.xml
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\bin\AnyCPU\Debug\WinUniversalPackage.build.appxrecipe
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\WinUniversalPackage.wapproj.AssemblyReference.cache
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\WinUniversalPackage.wapproj.CoreCompileInputs.cache
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\priconfig.xml
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\priconfig.xml.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\unfiltered.layout.resfiles
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\filtered.layout.resfiles
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\filtered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\excluded.layout.resfiles
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\excluded.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\resources.resfiles
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\resources.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\pri.resfiles
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\pri.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\qualifiers.txt
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\qualifiers.txt.intermediate
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\ProjectArchitectures.txt
+D:\VisualStudio\ProjectRepos\WinUniversalPackage\obj\Debug\WinUniversalPackage.wapproj.LastBuild.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\Example\Example.exe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\Example\Example.exe.config
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\Example\Example.pdb
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\resources.pri
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\AppxManifest.xml
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\WinUniversalPackage.build.appxrecipe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\WinUniversalPackage.wapproj.AssemblyReference.cache
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\WinUniversalPackage.wapproj.CoreCompileInputs.cache
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\priconfig.xml
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\priconfig.xml.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\unfiltered.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\filtered.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\filtered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\excluded.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\excluded.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\resources.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\resources.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\pri.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\pri.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\qualifiers.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\qualifiers.txt.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\ProjectArchitectures.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\obj\Debug\WinUniversalPackage.wapproj.LastBuild.txt

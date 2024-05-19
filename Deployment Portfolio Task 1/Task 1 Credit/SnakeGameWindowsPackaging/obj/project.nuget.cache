@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nu+D//sj990/oTcGk/LSauzHM3I0HMwLogyL7OGKldGofAZJMuzI/vmWhjd8ss3p3cvZT7TNGEsRwDAE6kVPqQ==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGameWindowsPackaging\\SnakeGameWindowsPackaging.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+D:\VisualStudio\ProjectRepos\Example\bin\Debug\Example.exe.config
+D:\VisualStudio\ProjectRepos\Example\bin\Debug\Example.exe
+D:\VisualStudio\ProjectRepos\Example\bin\Debug\Example.pdb
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.csproj.AssemblyReference.cache
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.Hello.resources
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.Properties.Resources.resources
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.csproj.GenerateResource.cache
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.csproj.CoreCompileInputs.cache
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.exe
+D:\VisualStudio\ProjectRepos\Example\obj\Debug\Example.pdb

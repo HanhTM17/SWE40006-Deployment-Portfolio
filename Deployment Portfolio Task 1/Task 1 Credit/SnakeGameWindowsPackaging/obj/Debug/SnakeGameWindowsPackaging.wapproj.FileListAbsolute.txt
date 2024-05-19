@@ -1,0 +1,50 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGame\SnakeGame.exe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGame\SnakeGame.exe.config
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGame\SnakeGame.pdb
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\resources.pri
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\AppxManifest.xml
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGameWindowsPackaging.build.appxrecipe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\SnakeGameWindowsPackaging.wapproj.AssemblyReference.cache
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\SnakeGameWindowsPackaging.wapproj.CoreCompileInputs.cache
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\priconfig.xml
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\priconfig.xml.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\unfiltered.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\filtered.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\filtered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\excluded.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\excluded.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\resources.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\resources.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\pri.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\pri.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\qualifiers.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\qualifiers.txt.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\ProjectArchitectures.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\SnakeGameWindowsPackaging.wapproj.LastBuild.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGame\SnakeGame.exe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGame\SnakeGame.exe.config
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGame\SnakeGame.pdb
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\resources.pri
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\AppxManifest.xml
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGameWindowsPackaging.build.appxrecipe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\SnakeGameWindowsPackaging.wapproj.AssemblyReference.cache
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\SnakeGameWindowsPackaging.wapproj.CoreCompileInputs.cache
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\priconfig.xml
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\priconfig.xml.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\unfiltered.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\unfiltered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\filtered.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\filtered.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\excluded.layout.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\excluded.layout.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\resources.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\resources.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\pri.resfiles
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\pri.resfiles.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\qualifiers.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\qualifiers.txt.intermediate
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\ProjectArchitectures.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\SnakeGameWindowsPackaging.wapproj.LastBuild.txt

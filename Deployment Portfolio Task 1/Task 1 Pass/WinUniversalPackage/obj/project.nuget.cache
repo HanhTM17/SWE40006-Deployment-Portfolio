@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5HJ7lCPoz5FRAFElQGa4amTEm49QGNUcAN29oIbchpswboT8meeGxOlEOMcs4NhK2u2+AtBGS6QbLyhtyg8gbw==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\WinUniversalPackage\\WinUniversalPackage.wapproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512"
+  ],
+  "logs": []
+}

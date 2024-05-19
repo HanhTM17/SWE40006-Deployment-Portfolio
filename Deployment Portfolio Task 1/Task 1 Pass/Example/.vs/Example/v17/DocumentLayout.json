@@ -1,0 +1,100 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\Example\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{14F86A5F-17C7-495A-87D9-C7BDA2316B14}|..\\WinUniversalPackage\\WinUniversalPackage.wapproj|d:\\visualstudio\\projectrepos\\deployment portfolio task 1\\task 1 pass\\winuniversalpackage\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{14F86A5F-17C7-495A-87D9-C7BDA2316B14}|..\\WinUniversalPackage\\WinUniversalPackage.wapproj|d:\\visualstudio\\projectrepos\\deployment portfolio task 1\\task 1 pass\\winuniversalpackage\\winuniversalpackage.wapproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3419AB6C-DB26-434D-9D59-2B3C56317D6D}|..\\ExampleDesktop\\ExampleDesktop.wixproj|D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\ExampleDesktop\\Product.wxs||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E58514-D098-4410-BEA9-0034BA49C36D}|Example.csproj|d:\\visualstudio\\projectrepos\\deployment portfolio task 1\\task 1 pass\\example\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E58514-D098-4410-BEA9-0034BA49C36D}|Example.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E58514-D098-4410-BEA9-0034BA49C36D}|Example.csproj|d:\\visualstudio\\projectrepos\\deployment portfolio task 1\\task 1 pass\\example\\hello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{55E58514-D098-4410-BEA9-0034BA49C36D}|Example.csproj|solutionrelative:hello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\WinUniversalPackage\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "..\\WinUniversalPackage\\Package.appxmanifest",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\WinUniversalPackage\\Package.appxmanifest",
+              "RelativeToolTip": "..\\WinUniversalPackage\\Package.appxmanifest",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-05-19T10:37:48.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WinUniversalPackage",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\WinUniversalPackage\\WinUniversalPackage.wapproj",
+              "RelativeDocumentMoniker": "..\\WinUniversalPackage\\WinUniversalPackage.wapproj",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\WinUniversalPackage\\WinUniversalPackage.wapproj",
+              "RelativeToolTip": "..\\WinUniversalPackage\\WinUniversalPackage.wapproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T10:34:05.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.wxs",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\ExampleDesktop\\Product.wxs",
+              "RelativeDocumentMoniker": "..\\ExampleDesktop\\Product.wxs",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\ExampleDesktop\\Product.wxs",
+              "RelativeToolTip": "..\\ExampleDesktop\\Product.wxs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T10:29:41.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\Example\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\Example\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:29:29.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Hello.cs [Design]",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\Example\\Hello.cs",
+              "RelativeDocumentMoniker": "Hello.cs",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Pass\\Example\\Hello.cs [Design]",
+              "RelativeToolTip": "Hello.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T10:29:25.858Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

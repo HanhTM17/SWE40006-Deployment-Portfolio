@@ -1,0 +1,2 @@
+MainPackage=D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appx
+SymbolPackage=D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\obj\Debug\Symbols\SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxsym

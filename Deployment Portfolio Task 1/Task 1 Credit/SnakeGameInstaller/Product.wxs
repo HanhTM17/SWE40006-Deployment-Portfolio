@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Deployment Portfolio Task 1" Language="1033" Version="1.0.0.0" Manufacturer="Tran Minh Hanh" UpgradeCode="3c5cc89b-0d9f-43b7-a539-3744c4874eac">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<Feature Id="ProductFeature" Title="SnakeGameInstaller" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Deployment Portfolio Task 1" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+			<Component Id="SnakeGame.exe" Guid="cb33ed24-be67-4764-800d-5a16c9054a7b" >
+				<File Id="SnakeGame.exe" Name="SnakeGame.exe" Source="D:/VisualStudio/ProjectRepos/Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.exe"></File>
+			</Component>
+			<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+		</ComponentGroup>
+	</Fragment>
+</Wix>

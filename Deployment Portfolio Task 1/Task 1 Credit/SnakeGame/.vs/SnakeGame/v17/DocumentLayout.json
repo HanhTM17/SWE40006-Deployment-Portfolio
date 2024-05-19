@@ -1,0 +1,52 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81DFCCF6-E1EB-4FF5-8389-768B554DC36D}|..\\SnakeGameInstaller\\SnakeGameInstaller.wixproj|D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGameInstaller\\Product.wxs||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C4336F6F-7F72-4A56-834A-27F75C8EECFC}|SnakeGame.csproj|D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGame\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C4336F6F-7F72-4A56-834A-27F75C8EECFC}|SnakeGame.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.wxs",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGameInstaller\\Product.wxs",
+              "RelativeDocumentMoniker": "..\\SnakeGameInstaller\\Product.wxs",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGameInstaller\\Product.wxs",
+              "RelativeToolTip": "..\\SnakeGameInstaller\\Product.wxs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAACVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-19T10:41:04.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.cs [Design]",
+              "DocumentMoniker": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGame\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 1\\Task 1 Credit\\SnakeGame\\Game.cs [Design]",
+              "RelativeToolTip": "Game.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T17:39:33.842Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

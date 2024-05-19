@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-6UKDON56</Machine>
+    <WindowsUser>Swift 5</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>2aa21389-02f0-4d18-8dab-1512be5fbc15</PackageIdentityName>
+    <PackageIdentityPublisher>CN=password_is_123</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath></WindowsSdkPath>
+    <LayoutDir>D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\SplashScreen.scale-200.png">
+      <PackagePath>Images\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\LockScreenLogo.scale-200.png">
+      <PackagePath>Images\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\Square150x150Logo.scale-200.png">
+      <PackagePath>Images\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\Square44x44Logo.scale-200.png">
+      <PackagePath>Images\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Images\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\StoreLogo.png">
+      <PackagePath>Images\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\Images\Wide310x150Logo.scale-200.png">
+      <PackagePath>Images\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameWindowsPackaging\bin\AnyCPU\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGame\bin\Debug\SnakeGame.exe">
+      <PackagePath>SnakeGame\SnakeGame.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGame\bin\Debug\SnakeGame.exe.config">
+      <PackagePath>SnakeGame\SnakeGame.exe.config</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

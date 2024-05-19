@@ -1,0 +1,2 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\ExampleDesktop\bin\Debug\ExampleDesktop.msi
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\ExampleDesktop\bin\Debug\ExampleDesktop.wixpdb

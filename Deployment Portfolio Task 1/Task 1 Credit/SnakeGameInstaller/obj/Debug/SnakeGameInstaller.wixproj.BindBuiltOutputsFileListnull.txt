@@ -1,0 +1,2 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameInstaller\bin\Debug\SnakeGameInstaller.msi
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameInstaller\bin\Debug\SnakeGameInstaller.wixpdb

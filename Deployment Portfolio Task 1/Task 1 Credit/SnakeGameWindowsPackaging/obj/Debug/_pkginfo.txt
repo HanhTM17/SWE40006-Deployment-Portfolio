@@ -1,0 +1,1 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameWindowsPackaging\AppPackages\SnakeGameWindowsPackaging_1.0.0.0_Debug_Test\SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxbundle

@@ -1,0 +1,11 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\SplashScreen.scale-200.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\LockScreenLogo.scale-200.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\Square150x150Logo.scale-200.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\Square44x44Logo.scale-200.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\Square44x44Logo.targetsize-24_altform-unplated.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\StoreLogo.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\Images\Wide310x150Logo.scale-200.png
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\WinUniversalPackage\bin\AnyCPU\Debug\resources.pri
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\Example\bin\Debug\Example.exe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\Example\bin\Debug\Example.exe.config
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Pass\Example\bin\Debug\Example.pdb

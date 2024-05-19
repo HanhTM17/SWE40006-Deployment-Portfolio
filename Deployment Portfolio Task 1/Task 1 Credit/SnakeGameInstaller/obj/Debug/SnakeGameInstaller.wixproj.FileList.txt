@@ -1,0 +1,8 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameInstaller\bin\Debug\SnakeGameInstaller.msi
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\SnakeGameInstaller\bin\Debug\SnakeGameInstaller.wixpdb
+obj\Debug\Product.wixobj
+obj\Debug\SnakeGameInstaller.wixproj.BindContentsFileListnull.txt
+obj\Debug\SnakeGameInstaller.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SnakeGameInstaller.wixproj.BindBuiltOutputsFileListnull.txt
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameInstaller\bin\Debug\SnakeGameInstaller.msi
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 1\Task 1 Credit\SnakeGameInstaller\bin\Debug\SnakeGameInstaller.wixpdb
