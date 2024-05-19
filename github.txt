@@ -1,0 +1,803 @@
+Microsoft Windows [Version 10.0.19045.4412]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Swift 5>d:
+
+D:\>git
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+D:\>kdir lmao
+'kdir' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\>mkdir lmao
+
+D:\>cd lmao
+
+D:\lmao>git clone https://github.com/HanhTM17/ICT30001-Deployment-Portfolio.git
+Cloning into 'ICT30001-Deployment-Portfolio'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+D:\lmao>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+D:\lmao>cd ICT30001-Deployment-Portfolio
+
+D:\lmao\ICT30001-Deployment-Portfolio>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+D:\lmao\ICT30001-Deployment-Portfolio>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Deployment Portfolio Task 1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\lmao\ICT30001-Deployment-Portfolio>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Deployment Portfolio Task 1/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+D:\lmao\ICT30001-Deployment-Portfolio>git add .
+warning: in the working copy of 'Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/Product.wxs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/SnakeGameInstaller.wixproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/ExampleDesktop.wixproj', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/Product.wxs', LF will be replaced by CRLF the next time Git touches it
+
+D:\lmao\ICT30001-Deployment-Portfolio>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Deployment Portfolio Task 1/Task 1 Apps/Example.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Apps/SnakeGame.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/DesignTimeBuild/.dtbcache.v2
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/2b1dbee0-0a99-4a28-803a-91257cc55106.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/922821c3-18b2-469f-a59c-82e797addde4.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/af187a40-53c6-4b33-ba5c-d799791b456a.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/c001f1f7-0743-402e-80c1-688d4eab3cea.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/df568d15-310a-46f5-bc9b-eec40439e9f6.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/v17/.futdcache.v2
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/v17/.suo
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/v17/DocumentLayout.json
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/App.config
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Circle.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Game.Designer.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Game.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Game.resx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Input.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Program.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/AssemblyInfo.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Resources.Designer.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Resources.resx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Settings.Designer.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Settings.settings
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Settings.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/SnakeGame.csproj
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/SnakeGame.sln
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.exe.config
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.Game.resources
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.Properties.Resources.resources
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.AssemblyReference.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.CoreCompileInputs.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.FileListAbsolute.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.GenerateResource.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/Product.wxs
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/SnakeGameInstaller.wixproj
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/bin/Debug/SnakeGameInstaller.msi
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/bin/Debug/SnakeGameInstaller.wixpdb
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/Product.wixobj
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.BindBuiltOutputsFileListnull.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.BindContentsFileListnull.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.BindOutputsFileListnull.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.FileList.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Install.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxbundle
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxsym
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/LogSideloadingTelemetry.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.Diagnostics.Tracing.EventSource.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.RemoteControl.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Telemetry.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Utilities.Internal.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Newtonsoft.Json.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/System.Runtime.CompilerServices.Unsafe.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/BundleArtifacts/neutral.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/LockScreenLogo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/SplashScreen.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Square150x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Square44x44Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/StoreLogo.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Wide310x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Package.appxmanifest
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging.assets.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging.wapproj
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging.wapproj.user
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging_TemporaryKey.pfx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/AppxManifest.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/ForBundle/AppxManifest.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGame/SnakeGame.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGame/SnakeGame.exe.config
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGame/SnakeGame.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGameWindowsPackaging.build.appxrecipe
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/resources.pri
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/MultipleQualifiersPerDimensionFound.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/LockScreenLogo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/SplashScreen.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Square150x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Square44x44Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/StoreLogo.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Wide310x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/SnakeGame/SnakeGame.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/SnakeGame/SnakeGame.exe.config
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/ProjectArchitectures.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.AssemblyReference.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.CoreCompileInputs.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.FileListAbsolute.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.LastBuild.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging_1.0.0.0_Bundle/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appx
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/Symbols/SnakeGame.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/Symbols/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxsym
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/_installerinfo.log
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/_pkginfo.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/embed/embed.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/embed/embed.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.package.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.package.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.generatedFiles.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.map.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.pri
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.priconfig.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.priconfig.xml.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.package.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.package.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/main.map.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/pri.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/pri.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/priconfig.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/priconfig.xml.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/qualifiers.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/qualifiers.txt.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/resources.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/resources.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.generatedFiles.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.map.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.pri
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.pri.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.priconfig.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.priconfig.xml.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.qualifiers.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.qualifiers.txt.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/unfiltered.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/unfiltered.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/SnakeGameWindowsPackaging.wapproj.nuget.dgspec.json
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/SnakeGameWindowsPackaging.wapproj.nuget.g.props
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/SnakeGameWindowsPackaging.wapproj.nuget.g.targets
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/project.assets.json
+        new file:   Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/project.nuget.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/DesignTimeBuild/.dtbcache.v2
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/15ae503b-a58f-4a51-b10f-b66adb9ff4da.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/2428adc2-a89a-44f3-b3c8-5afc1ea26411.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/c4edb01f-0fc0-4fce-9f49-0b3e12a1a523.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/c923fc2a-7807-4d82-8d2a-c678dbb7124b.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/f73cc723-98fd-4730-ab21-c3c48b2df1c3.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/v17/.futdcache.v2
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/v17/.suo
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/v17/DocumentLayout.json
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/App.config
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Example.csproj
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Example.sln
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Hello.Designer.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Hello.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Hello.resx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Program.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/AssemblyInfo.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Resources.Designer.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Resources.resx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Settings.Designer.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Settings.settings
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/bin/Debug/Example.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/bin/Debug/Example.exe.config
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/bin/Debug/Example.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.Hello.resources
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.Properties.Resources.resources
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.AssemblyReference.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.CoreCompileInputs.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.FileListAbsolute.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.GenerateResource.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/.vs/ExampleDesktop/FileContentIndex/3a853b36-bc5a-4aba-bea9-ebd0d4d8af36.vsidx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/.vs/ExampleDesktop/v17/.suo
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/ExampleDesktop.wixproj
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/Product.wxs
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/bin/Debug/ExampleDesktop.msi
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/bin/Debug/ExampleDesktop.wixpdb
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.BindBuiltOutputsFileListnull.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.BindContentsFileListnull.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.BindOutputsFileListnull.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.FileList.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/Product.wixobj
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Install.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/LogSideloadingTelemetry.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.Diagnostics.Tracing.EventSource.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.RemoteControl.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Telemetry.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Utilities.Internal.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Newtonsoft.Json.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/System.Runtime.CompilerServices.Unsafe.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appxbundle
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appxsym
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Install.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/LogSideloadingTelemetry.ps1
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.Diagnostics.Tracing.EventSource.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.RemoteControl.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Telemetry.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Utilities.Internal.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Newtonsoft.Json.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/System.Runtime.CompilerServices.Unsafe.dll
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appxbundle
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appxsym
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.cer
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/BundleArtifacts/neutral.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/LockScreenLogo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/SplashScreen.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Square150x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Square44x44Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/StoreLogo.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Wide310x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Package.appxmanifest
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage.assets.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage.wapproj
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage.wapproj.user
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage_TemporaryKey.pfx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/AppxManifest.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/Example/Example.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/Example/Example.exe.config
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/Example/Example.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/ForBundle/AppxManifest.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/WinUniversalPackage.build.appxrecipe
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/resources.pri
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/MultipleQualifiersPerDimensionFound.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Example/Example.exe
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Example/Example.exe.config
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/LockScreenLogo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/SplashScreen.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Square150x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Square44x44Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/StoreLogo.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Wide310x150Logo.scale-200.png
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/ProjectArchitectures.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/Symbols/Example.pdb
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/Symbols/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appxsym
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/Symbols/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appxsym
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.AssemblyReference.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.CoreCompileInputs.cache
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.FileListAbsolute.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.LastBuild.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage_1.0.0.0_Bundle/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage_1.0.1.0_Bundle/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appx
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/_installerinfo.log
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/_pkginfo.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/embed/embed.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/embed/embed.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.package.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.package.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.generatedFiles.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.map.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.pri
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.priconfig.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.priconfig.xml.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.package.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.package.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/main.map.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/pri.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/pri.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/priconfig.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/priconfig.xml.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/qualifiers.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/qualifiers.txt.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/resources.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/resources.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.generatedFiles.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.map.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.pri
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.pri.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.priconfig.xml
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.priconfig.xml.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.qualifiers.txt
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.qualifiers.txt.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/unfiltered.layout.resfiles
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/unfiltered.layout.resfiles.intermediate
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/WinUniversalPackage.wapproj.nuget.dgspec.json
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/WinUniversalPackage.wapproj.nuget.g.props
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/WinUniversalPackage.wapproj.nuget.g.targets
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/project.assets.json
+        new file:   Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/project.nuget.cache
+
+
+D:\lmao\ICT30001-Deployment-Portfolio>git commit -m "init project"
+[main 797aa46] init project
+ 337 files changed, 9192 insertions(+)
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Apps/Example.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Apps/SnakeGame.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/DesignTimeBuild/.dtbcache.v2
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/2b1dbee0-0a99-4a28-803a-91257cc55106.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/922821c3-18b2-469f-a59c-82e797addde4.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/af187a40-53c6-4b33-ba5c-d799791b456a.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/c001f1f7-0743-402e-80c1-688d4eab3cea.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/FileContentIndex/df568d15-310a-46f5-bc9b-eec40439e9f6.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/v17/.futdcache.v2
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/v17/.suo
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/.vs/SnakeGame/v17/DocumentLayout.json
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/App.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Circle.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Game.Designer.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Game.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Game.resx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Input.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Program.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/AssemblyInfo.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Resources.Designer.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Resources.resx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Settings.Designer.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Properties/Settings.settings
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/Settings.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/SnakeGame.csproj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/SnakeGame.sln
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.exe.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/bin/Debug/SnakeGame.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.Game.resources
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.Properties.Resources.resources
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.AssemblyReference.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.CoreCompileInputs.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.FileListAbsolute.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.csproj.GenerateResource.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGame/obj/Debug/SnakeGame.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/Product.wxs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/SnakeGameInstaller.wixproj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/bin/Debug/SnakeGameInstaller.msi
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/bin/Debug/SnakeGameInstaller.wixpdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/Product.wixobj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.BindBuiltOutputsFileListnull.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.BindContentsFileListnull.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.BindOutputsFileListnull.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameInstaller/obj/Debug/SnakeGameInstaller.wixproj.FileList.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/Install.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxbundle
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxsym
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/LogSideloadingTelemetry.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.Diagnostics.Tracing.EventSource.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.RemoteControl.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Telemetry.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Utilities.Internal.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/Newtonsoft.Json.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/AppPackages/SnakeGameWindowsPackaging_1.0.0.0_Debug_Test/TelemetryDependencies/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/BundleArtifacts/neutral.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/LockScreenLogo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/SplashScreen.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Square150x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Square44x44Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/StoreLogo.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Images/Wide310x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/Package.appxmanifest
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging.assets.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging.wapproj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging.wapproj.user
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/SnakeGameWindowsPackaging_TemporaryKey.pfx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/AppxManifest.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/ForBundle/AppxManifest.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGame/SnakeGame.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGame/SnakeGame.exe.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGame/SnakeGame.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGameWindowsPackaging.build.appxrecipe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/bin/AnyCPU/Debug/resources.pri
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/MultipleQualifiersPerDimensionFound.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/LockScreenLogo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/SplashScreen.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Square150x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Square44x44Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/StoreLogo.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/Images/Wide310x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/SnakeGame/SnakeGame.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/PackageLayout/SnakeGame/SnakeGame.exe.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/ProjectArchitectures.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.AssemblyReference.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.CoreCompileInputs.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.FileListAbsolute.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging.wapproj.LastBuild.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/SnakeGameWindowsPackaging_1.0.0.0_Bundle/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/Symbols/SnakeGame.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/Symbols/SnakeGameWindowsPackaging_1.0.0.0_AnyCPU_Debug.appxsym
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/_installerinfo.log
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/_pkginfo.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/embed/embed.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/embed/embed.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.package.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/excluded.package.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.generatedFiles.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.map.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.pri
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.priconfig.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filemap.priconfig.xml.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.package.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/filtered.package.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/main.map.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/pri.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/pri.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/priconfig.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/priconfig.xml.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/qualifiers.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/qualifiers.txt.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/resources.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/resources.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.generatedFiles.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.map.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.pri
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.pri.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.priconfig.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.priconfig.xml.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.qualifiers.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/split.qualifiers.txt.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/unfiltered.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/Debug/unfiltered.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/SnakeGameWindowsPackaging.wapproj.nuget.dgspec.json
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/SnakeGameWindowsPackaging.wapproj.nuget.g.props
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/SnakeGameWindowsPackaging.wapproj.nuget.g.targets
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/project.assets.json
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Credit/SnakeGameWindowsPackaging/obj/project.nuget.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/DesignTimeBuild/.dtbcache.v2
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/15ae503b-a58f-4a51-b10f-b66adb9ff4da.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/2428adc2-a89a-44f3-b3c8-5afc1ea26411.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/c4edb01f-0fc0-4fce-9f49-0b3e12a1a523.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/c923fc2a-7807-4d82-8d2a-c678dbb7124b.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/FileContentIndex/f73cc723-98fd-4730-ab21-c3c48b2df1c3.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/v17/.futdcache.v2
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/v17/.suo
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/.vs/Example/v17/DocumentLayout.json
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/App.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Example.csproj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Example.sln
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Hello.Designer.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Hello.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Hello.resx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Program.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/AssemblyInfo.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Resources.Designer.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Resources.resx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Settings.Designer.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/Properties/Settings.settings
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/bin/Debug/Example.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/bin/Debug/Example.exe.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/bin/Debug/Example.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/.NETFramework,Version=v4.6.2.AssemblyAttributes.cs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.Hello.resources
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.Properties.Resources.resources
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.AssemblyReference.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.CoreCompileInputs.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.FileListAbsolute.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.csproj.GenerateResource.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/Example/obj/Debug/Example.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/.vs/ExampleDesktop/FileContentIndex/3a853b36-bc5a-4aba-bea9-ebd0d4d8af36.vsidx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/.vs/ExampleDesktop/v17/.suo
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/ExampleDesktop.wixproj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/Product.wxs
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/bin/Debug/ExampleDesktop.msi
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/bin/Debug/ExampleDesktop.wixpdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.BindBuiltOutputsFileListnull.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.BindContentsFileListnull.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.BindOutputsFileListnull.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/ExampleDesktop.wixproj.FileList.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/ExampleDesktop/obj/Debug/Product.wixobj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/Install.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/LogSideloadingTelemetry.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.Diagnostics.Tracing.EventSource.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.RemoteControl.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Telemetry.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Utilities.Internal.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/Newtonsoft.Json.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/TelemetryDependencies/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appxbundle
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.0.0_Debug_Test/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appxsym
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/cs-CZ/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/de-DE/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/en-US/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/es-ES/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/fr-FR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/it-IT/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/ja-JP/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/ko-KR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/pl-PL/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/pt-BR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/ru-RU/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/tr-TR/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/zh-CN/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Add-AppDevPackage.resources/zh-TW/Add-AppDevPackage.psd1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/Install.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/LogSideloadingTelemetry.ps1
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.Diagnostics.Tracing.EventSource.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.RemoteControl.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Telemetry.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Microsoft.VisualStudio.Utilities.Internal.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/Newtonsoft.Json.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/TelemetryDependencies/System.Runtime.CompilerServices.Unsafe.dll
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appxbundle
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appxsym
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/AppPackages/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.cer
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/BundleArtifacts/neutral.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/LockScreenLogo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/SplashScreen.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Square150x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Square44x44Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/StoreLogo.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Images/Wide310x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/Package.appxmanifest
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage.assets.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage.wapproj
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage.wapproj.user
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/WinUniversalPackage_TemporaryKey.pfx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/AppxManifest.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/Example/Example.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/Example/Example.exe.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/Example/Example.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/ForBundle/AppxManifest.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/WinUniversalPackage.build.appxrecipe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/bin/AnyCPU/Debug/resources.pri
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/MultipleQualifiersPerDimensionFound.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Example/Example.exe
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Example/Example.exe.config
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/LockScreenLogo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/SplashScreen.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Square150x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Square44x44Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Square44x44Logo.targetsize-24_altform-unplated.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/StoreLogo.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/PackageLayout/Images/Wide310x150Logo.scale-200.png
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/ProjectArchitectures.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/Symbols/Example.pdb
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/Symbols/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appxsym
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/Symbols/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appxsym
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.AssemblyReference.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.CoreCompileInputs.cache
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.FileListAbsolute.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage.wapproj.LastBuild.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage_1.0.0.0_Bundle/WinUniversalPackage_1.0.0.0_AnyCPU_Debug.appx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/WinUniversalPackage_1.0.1.0_Bundle/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.appx
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/_installerinfo.log
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/_pkginfo.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/embed/embed.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/embed/embed.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.package.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/excluded.package.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.generatedFiles.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.map.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.pri
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.priconfig.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filemap.priconfig.xml.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.package.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/filtered.package.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/main.map.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/pri.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/pri.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/priconfig.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/priconfig.xml.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/qualifiers.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/qualifiers.txt.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/resources.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/resources.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.generatedFiles.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.map.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.pri
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.pri.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.priconfig.xml
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.priconfig.xml.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.qualifiers.txt
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/split.qualifiers.txt.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/unfiltered.layout.resfiles
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/Debug/unfiltered.layout.resfiles.intermediate
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/WinUniversalPackage.wapproj.nuget.dgspec.json
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/WinUniversalPackage.wapproj.nuget.g.props
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/WinUniversalPackage.wapproj.nuget.g.targets
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/project.assets.json
+ create mode 100644 Deployment Portfolio Task 1/Task 1 Pass/WinUniversalPackage/obj/project.nuget.cache
+
+D:\lmao\ICT30001-Deployment-Portfolio>git push
+info: please complete authentication in your browser...
+Enumerating objects: 266, done.
+Counting objects: 100% (266/266), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (238/238), done.
+Writing objects: 100% (265/265), 1.09 MiB | 528.00 KiB/s, done.
+Total 265 (delta 70), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (70/70), done.
+To https://github.com/HanhTM17/ICT30001-Deployment-Portfolio.git
+   800758e..797aa46  main -> main
+
+D:\lmao\ICT30001-Deployment-Portfolio>
