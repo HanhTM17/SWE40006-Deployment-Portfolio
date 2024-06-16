@@ -1,0 +1,7 @@
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\SampleWeb.exe
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\SampleWeb.dll
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\SampleWeb.deps.json
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\SampleWeb.runtimeconfig.json
+D:\VisualStudio\ProjectRepos\Deployment Portfolio Task 3\SampleWeb\obj\Release\net6.0\PubTmp\Out\SampleWeb.pdb

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "tdZNu2ZrdvJHxR32ESd8rqSwByJazcOwbnL3ID+MKP0ZPObeiVqkvOGlzdDadCd6BaGdD/YRcSAE5aWFYFbFjA==",
+  "success": true,
+  "projectFilePath": "D:\\VisualStudio\\ProjectRepos\\Deployment Portfolio Task 3\\SampleWeb\\SampleWeb.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Swift 5\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Swift 5\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Swift 5\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512",
+    "C:\\Users\\Swift 5\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.29\\microsoft.netcore.app.host.win-x64.6.0.29.nupkg.sha512"
+  ],
+  "logs": []
+}
